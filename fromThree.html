@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Complex Form</h2>
+    
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name">
+        <label for="emailId">Email:</label>
+        <input type="email" name="emailId" id="emailId">
+        <label for="phoneNumber">Phone: </label>
+        <input type="tel" name="phoneNumber" id="phoneNumber">
+        <label for="date">Date of Birth : </label>
+        <input type="date" name="date" id="date">
+        <label for="gender">Gender: </label>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <select name="country" id="country">
+            <option value="">Select Country</option>
+            <option value="unitedStates">United States</option>
+            <option value="india">India</option>
+        </select>
+    </fieldset>
+
+    <fieldset>
+        <legend>Address Street</legend>
+        <label for="city">Name: </label>
+        <input type="text" name="city" id="city">
+        <label for="state">State: </label>
+        <input type="text" name="state" id="state">
+        <label for="zipcode">Zip Code: </label>
+        <input type="number" name="zipcode" id="zipcode">   
+    </fieldset>
+
+    <fieldset>
+        <legend>Other Information</legend>
+        <label for="comments">Comments</label>
+        <textarea name="comments" id="comments"></textarea>
+
+        <label for="terms">agree to the terms of service</label>
+        <input type="checkbox" name="terms" id="terms">
+    </fieldset>
+
+    <input type="submit" value="Submit">
+</body>
+</html>
